@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  font-style: normal;
+  line-height: 32px;
+  letter-spacing: 1.2px;
+  box-sizing: border-box;
+}
+
+#main {
+  margin: 32px 10px;
+  background: #eeeeee;
+  /* width: 100%; */
+  border-radius: 5px;
+
+  min-height: 100vh;
+  position: relative;
+}
+
+#title {
+  font-size: 2.4em;
+  text-align: center;
+  padding: 56px 0 24px;
+}
+
+#sub-title {
+  text-align: center;
+}
+
+#img-div {
+  height: 100%;
+  background: #ffff;
+  position: relative;
+  margin: 20px 10px;
+  display: grid;
+  place-items: center;
+}
+
+#img-div #image {
+  width: 90%;
+  max-width: 1024px;
+
+  position: relative;
+  margin: 24px;
+}
+
+#img-div #img-caption {
+  padding-bottom: 16px;
+}
+
+/* Tribute Information Section */
+
+#tribute-info {
+  margin: 0 auto;
+  max-width: 512px;
+}
+
+#tribute-info ul li {
+  list-style-type: none;
+  padding: 16px 4px;
+}
+
+#tribute-info ul li::before {
+  content: "-";
+}
+
+blockquote {
+  padding: 24px 0;
+  font-style: italic;
+}
+
+#tribute-link-section {
+  text-align: center;
+  padding: 32px 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
